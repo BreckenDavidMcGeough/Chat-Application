@@ -6,6 +6,20 @@ Welcome to Programming Assignment 1 for CSE4/589: Modern Network Concepts, focus
 
 Unfortunately, The project is a part of the CSE4/589 UB organization and is private for academic integrity reasons (so future students of the class can't steal my code), so I was unable to include the commits for the project which displayed the long and extensive development process. For a more in depth and technical view into the functionality of the project, please view the document 'technical_overview.pdf'.
 
+## Functionality 
+
+The client and server both have their own terminal interface from which they interact. The server is capable of handling multiple concurrent clients and traffic. Here is some of the highlighted functionality (see 'technical_overview.pdf' for in-depth breakdown of all functionality and engineering behind it):
+
+* Clients can log in to server
+
+* Clients can send messages to other clients
+
+* Clients can block clients from sending messages to them
+
+* Clients can unblock clients
+
+* Server stores all telemetry and information about clients in linked list including messages sent/recieved from clients, clients logged in/out, external IP's and listening ports of clients, etc.
+
 ## Objectives
 
 The main goal is to develop a text chat application comprising one chat server and multiple chat clients, facilitating communication over TCP connections. The project is divided into two stages:
