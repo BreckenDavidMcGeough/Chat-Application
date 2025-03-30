@@ -1,4 +1,4 @@
-# CSE4/589: Modern Network Concepts - Programming Assignment 1
+
 
 Welcome to Programming Assignment 1 for CSE4/589: Modern Network Concepts, focused on developing a text chat application. This assignment involves building both client and server components to enable text communication over TCP connections. Follow the guidelines below to start your project. All required functionality for this project was implemented and implemented correctly. 
 
